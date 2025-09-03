@@ -1,0 +1,39 @@
+:root {
+    --primaryColor: #14476c;
+    --secondaryColor: #37c2f1;
+    --lightBlue: #e8f4fd;
+    --darkBlue: #0f3a57;
+    --textColor: #333;
+    --lightGray: #f8f9fa;
+    --borderColor: #e0e0e0;
+    /* fixed */
+}
+
+.icon-img {
+    height: 2rem;
+    /* shrink image height */
+    width: auto;
+    /* keep aspect ratio */
+    margin-left: 0.5rem;
+    /* space between text and image */
+    vertical-align: middle;
+    /* align with text */
+}
+
+/* Apply primary color to table header */
+.table thead th {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+/* Apply secondary color to table cells */
+.table tbody td {
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+.table tbody th.primary-cell {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
