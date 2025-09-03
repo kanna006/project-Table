@@ -11,13 +11,12 @@
 
 .icon-img {
     height: 2rem;
-    /* shrink image height */
     width: auto;
-    /* keep aspect ratio */
-    margin-left: 0.5rem;
     /* space between text and image */
-    vertical-align: middle;
+    margin-left: 0.5rem;
     /* align with text */
+    vertical-align: middle;
+
 }
 
 /* Apply primary color to table header */
@@ -33,7 +32,6 @@
 }
 
 .table tbody th.primary-cell {
-  background-color: var(--primaryColor);
-  color: #fff;
+    background-color: var(--primaryColor);
+    color: #fff;
 }
-
